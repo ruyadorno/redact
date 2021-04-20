@@ -1,0 +1,22 @@
+{
+  "name": "@ruyadorno/redact",
+  "version": "1.0.0",
+  "description": "Small cli util that redacts path refs from stdin",
+  "main": "index.js",
+  "files": [
+    "./index.js"
+  ],
+  "bin": {
+    "redact": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["cli", "redact", "cwd"],
+  "author": {
+    "name": "Ruy Adorno",
+    "url": "https://ruyadorno.com",
+    "twitter": "ruyadorno"
+  },
+  "license": "MIT"
+}
